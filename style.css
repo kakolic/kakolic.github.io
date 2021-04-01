@@ -1,10 +1,11 @@
 header {
     font-family:'Courier New';
     padding: 10px;
-    color:darkred;
+    color:rgb(56, 8, 8);
     text-align: center;
-    margin:auto;
-    background-color:darkolivegreen;
+    width:auto;
+    height:auto;
+    background-color:rgb(180, 84, 190);
     opacity:0.4;
     border:20px;
     border-radius:5px;
@@ -14,12 +15,12 @@ img{
     width:150px;
     height:150px;
     padding:10px;
-    border:10px;
     border-radius: 30px;
     float:right;
+   
 }
 bold {
-    color:green;
+    color:blue;
 }
 
 div{
@@ -31,28 +32,36 @@ div{
 }
 
 body{
-    background-color: lightgray;
+    background-color: rgb(186, 209, 208);
     width:auto;
     height:auto;
-    
 }
 
 iframe{
     width:auto;
-   
+}
+/*change color with hover*/
+
+h2:hover{
+    color:purple;
 }
 
 h2 {
     font-family: 'Courier New';
     color:navy;
+    padding: 20px;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    
+}
+
+h3 {font-family: 'Courier New';
+    color:navy;
     padding: 10px;
     font-style: italic;
     margin: auto;
     text-align: center;
-}
-
-main{
-    text-align:auto;
 }
 
 p {
@@ -66,9 +75,11 @@ p {
  
 
 main {
-    color:black;
+    color:red;
     margin:auto;
     height:auto;
+    text-align:auto;
+    font-size:medium;
    
 }
 
