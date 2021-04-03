@@ -57,15 +57,17 @@ h3:hover{
 a:link {
     color: black;
 }
+/* visited link */
+a:visited {
+    color: #1100ff;
+}
+
 /* mouse over link */
 a:hover {
     color: #FF00FF;
   }
 
-/* visited link */
-a:visited {
-    color: #1100ff;
-  }
+
 h2 {
     font-family: 'Courier New';
     color:navy;
