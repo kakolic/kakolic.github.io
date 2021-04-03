@@ -19,6 +19,7 @@ img {
     border-radius: 30px;
     float:right;
 }
+
 div{
     width:auto;
     height:100px;
@@ -48,14 +49,30 @@ h2:hover{
     color:purple;
 }
 
+h3:hover{
+    color:purple;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+  }
+
+/* visited link */
+a:visited {
+    color: #1100ff;
+  }
 h2 {
     font-family: 'Courier New';
     color:navy;
     padding: 10px;
     font-style: italic;
     margin: auto;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 h3 {font-family: 'Courier New';
