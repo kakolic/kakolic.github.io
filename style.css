@@ -1,7 +1,7 @@
 header {
     font-family:'Courier New';
     padding: 5px;
-    color:blue;
+    color:rgb(6, 6, 26);
     text-align: center;
     width:auto;
     height:auto;
@@ -12,11 +12,12 @@ header {
 }
 /* adds image styling*/
 img {
-    width:150px;
-    height:150px;
-    padding:10px;
+    width:160px;
+    height:140px;
+    padding:05px;
+    /* background: #a84909; */
     border:5px solid rgb(180, 84, 190);
-    border-radius: 30px;
+    border-radius: 50%;
     float:right;
 }
 
@@ -102,7 +103,7 @@ main {
 }
 footer {
     background-color:rgb(180, 84, 190);
-    color:black;
+    color:rgb(6, 6, 26);
     text-align: center;
     padding:10px;
     opacity:0.4;
